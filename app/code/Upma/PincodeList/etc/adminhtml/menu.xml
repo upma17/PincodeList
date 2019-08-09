@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Upma_PincodeList::parent" title="PincodeList" module="Upma_PincodeList" sortOrder="100" resource="Upma_PincodeList::parent"/>
+        <add id="Upma_PincodeList::pincodes" title="PincodeList Pincodes" module="Upma_PincodeList" sortOrder="20" parent="Upma_PincodeList::parent" action="pincodelist/pincodes" resource="Upma_PincodeList::pincodes"/>
+
+    </menu>
+</config>
