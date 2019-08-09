@@ -1,2 +1,2 @@
 # PincodeList
-disable freeshipping for some pincode  managed from admin
+disable freeshipping for selected pincode with admin side management
